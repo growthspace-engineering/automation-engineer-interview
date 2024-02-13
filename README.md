@@ -18,8 +18,11 @@ This application shows a list of games and comes with a few by default
 
 The application can:
 - show all games in the collection
+  ![](screenshots/view-all.png)
 - enter edit mode (which will allow you to add games or delete games)
+  ![](screenshots/edit-mode.png)
 - add new game
+  ![](screenshots/add-game.png)
 - delete existing game
 
 it works with a backend application with the following swagger documentation: http://arcade.kibibit.duckdns.org/api/docs
@@ -40,4 +43,5 @@ Assignment Goals:
 Bonus Goals:
 - Integrate at least 1 feature for playwright. It can be visual testing, lighthouse, etc. Create at least 2 tests using it
 - There's an Attract Mode for the site. write a test for that part of the application
+  ![](screenshots/attract-mode.png)
   
