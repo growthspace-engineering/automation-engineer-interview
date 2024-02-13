@@ -12,7 +12,7 @@
 
 ## Getting Started
 
-We're going to test an Arcade Game Playlist application:
+We're going to test an Arcade Game Playlist application: http://arcade.kibibit.duckdns.org/
 
 This application shows a list of games and comes with a few by default
 
@@ -22,7 +22,7 @@ The application can:
 - add new game
 - delete existing game
 
-it works with a backend application with the following swagger documentation:
+it works with a backend application with the following swagger documentation: http://arcade.kibibit.duckdns.org/api/docs
 
 
 Assignment Goals:
