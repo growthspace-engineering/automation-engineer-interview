@@ -36,12 +36,12 @@ Assignment Goals:
   - Delete a game
   - Main View (View All Collection Games)
   - Game Details Modal
-- Should have prep and teardown for each test preferably using API calls. Tests should create the data their need and clean after themselves :-)
+- Should have prep and teardown for each test preferably using API calls. Tests should create the data they need and clean up after themselves :-)
 - minimal code duplication
-- architecture to support more tests on existing pages, modals, etc.
+- scalable architecture to support more tests on existing pages, modals, etc.
 
 Bonus Goals:
-- Integrate at least 1 feature for playwright. It can be visual testing, lighthouse, etc. Create at least 2 tests using it
-- There's an Attract Mode for the site. write a test for that part of the application
+- Integrate at least 1 feature for playwright. It can be visual testing, lighthouse, or any feature you'd like to integrate. Create at least 2 tests using the feature
+- There's an Attract Mode for the site in the upper right hand corner. Write a test for that part of the application
   ![](screenshots/attract-mode.png)
   
