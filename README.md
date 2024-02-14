@@ -1,8 +1,8 @@
 <p align="center">
-  <a href="https://github.com/growthspace-engineering" target="blank"><img src="logo-white.svg" width="250" alt="Logo" />
+  <a href="https://github.com/growthspace-engineering" target="blank"><img src="GS-logo.svg" width="250" alt="Logo" />
   </a>
   <h2 align="center">
-    @GrowthSpace/qa-interview-e2e
+    @growthspace-engineering/qa-interview-e2e
   </h2>
 </p>
 <p align="center">
@@ -17,13 +17,14 @@ We're going to test an Arcade Game Playlist application: https://arcade.kibibit.
 This application shows a list of games and comes with a few by default
 
 The application can:
-- show all games in the collection
-  ![](screenshots/view-all.png)
-- enter edit mode (which will allow you to add games or delete games)
-  ![](screenshots/edit-mode.png)
-- add new game
-  ![](screenshots/add-game.png)
-- delete existing game
+| Feature                            | Description                          | Screenshot                             |
+|------------------------------------|--------------------------------------|----------------------------------------|
+| Show all games in the collection   | Main screen displaying all games.    |                                        |
+| Enter edit mode                    | Allows adding or deleting games.     | ![](screenshots/edit-mode.png)         |
+| **[Edit Mode]** Add new game       | Adds a new game to the collection.   | <img src="screenshots/add-game-btn.png" width="250"> |
+| **[Edit Mode]** Delete existing game | Deletes a game from the collection. | <img src="screenshots/delete-game.png" width="250"> |
+| **[Edit Mode]** Exit edit mode     | Exits the edit mode.                 | <img src="screenshots/close-edit-mode.png" width="250"> |
+
 
 it works with a backend application with the following swagger documentation: https://arcade.kibibit.duckdns.org/api/docs
 
