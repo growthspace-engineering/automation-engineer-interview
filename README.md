@@ -24,7 +24,7 @@ The application can:
 | **[Edit Mode]** Add new game       | Adds a new game to the collection.   | <img src="screenshots/add-game-btn.png" width="250"> |
 | **[Edit Mode]** Delete existing game | Deletes a game from the collection. | <img src="screenshots/delete-game.png" width="250"> |
 | **[Edit Mode]** Exit edit mode     | Exits the edit mode.                 | <img src="screenshots/close-edit-mode.png" width="250"> |
-| **(BONUS)** [Attract Mode](https://en.wiktionary.org/wiki/attract_mode)     | Screen saver that shows all games in a roulette, switching games every few minutes | <img src="screenshots/attract-mode.png" width="250"> |
+| **(BONUS)** [Attract Mode](https://en.wiktionary.org/wiki/attract_mode)     | Screen saver that shows all games in a roulette, switching games every few minutes | <img src="screenshots/attract-mode-btn.png" width="250"> |
 
 
 it works with a backend application with the following swagger documentation: https://arcade.kibibit.duckdns.org/api/docs
