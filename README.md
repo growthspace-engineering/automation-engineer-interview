@@ -20,10 +20,11 @@ The application can:
 | Feature                            | Description                          | Screenshot                             |
 |------------------------------------|--------------------------------------|----------------------------------------|
 | Show all games in the collection   | Main screen displaying all games.    |                                        |
-| Enter edit mode                    | Allows adding or deleting games.     | ![](screenshots/edit-mode.png)         |
+| Enter edit mode                    | Allows adding or deleting games.     | <img src="screenshots/edit-mode.png" width="250"> |
 | **[Edit Mode]** Add new game       | Adds a new game to the collection.   | <img src="screenshots/add-game-btn.png" width="250"> |
 | **[Edit Mode]** Delete existing game | Deletes a game from the collection. | <img src="screenshots/delete-game.png" width="250"> |
 | **[Edit Mode]** Exit edit mode     | Exits the edit mode.                 | <img src="screenshots/close-edit-mode.png" width="250"> |
+| **(BONUS)** [Attract Mode](https://en.wiktionary.org/wiki/attract_mode)     | Screen saver that shows all games in a roulette, switching games every few minutes | <img src="screenshots/attract-mode.png" width="250"> |
 
 
 it works with a backend application with the following swagger documentation: https://arcade.kibibit.duckdns.org/api/docs
@@ -43,6 +44,5 @@ Assignment Goals:
 
 Bonus Goals:
 - Integrate at least 1 feature for playwright. It can be visual testing, lighthouse, or any feature you'd like to integrate. Create at least 2 tests using the feature
-- There's an Attract Mode for the site in the upper right hand corner. Write a test for that part of the application
-  ![](screenshots/attract-mode.png)
+- Write tests for the attract mode screensaver
   
