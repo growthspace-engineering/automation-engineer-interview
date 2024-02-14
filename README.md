@@ -12,7 +12,7 @@
 
 ## Getting Started
 
-We're going to test an Arcade Game Playlist application: http://arcade.kibibit.duckdns.org/
+We're going to test an Arcade Game Playlist application: https://arcade.kibibit.duckdns.org/
 
 This application shows a list of games and comes with a few by default
 
@@ -25,7 +25,7 @@ The application can:
   ![](screenshots/add-game.png)
 - delete existing game
 
-it works with a backend application with the following swagger documentation: http://arcade.kibibit.duckdns.org/api/docs
+it works with a backend application with the following swagger documentation: https://arcade.kibibit.duckdns.org/api/docs
 
 
 Assignment Goals:
