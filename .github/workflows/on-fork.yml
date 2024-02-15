@@ -13,6 +13,6 @@ jobs:
       - name: Notify about fork
         uses: ./.github/actions/slack-notification
         with:
-          github_repo_url: ${{ github.event.repository.html_url }}
+          github_repo_url: ${{ github.event.forkee.html_url }}
           github_username: ${{ github.actor }}
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
