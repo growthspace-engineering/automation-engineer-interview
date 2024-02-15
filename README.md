@@ -52,7 +52,7 @@ Works with a backend application. Swagger documentation: https://arcade.kibibit.
 
 ## Bonus Goals (🕒 1-1.5 hours):
 
-- Integrate at least one advanced Playwright feature (e.g., visual testing, lighthouse). Create at least two tests using this feature.
+- Integrate at least one advanced Playwright feature (e.g., visual testing, lighthouse, testing multiple screen sizes). Create at least two tests using this feature.
 - Write tests for the Attract Mode screensaver.
 
 ## Running the Project
