@@ -1,0 +1,31 @@
+name: Slack Notification
+description: |
+  Slack Notification for forking the repository
+inputs:
+  github_repo_url:
+    description: |
+      Message title
+    required: true
+  github_username:
+    description: |
+      The username of the person who triggered the fork
+    required: true
+  SLACK_WEBHOOK_URL:
+    description: |
+      The slack webhook URL to use for posting messages.
+    required: true
+
+runs:
+  using: "composite"
+  steps:
+    - name: 💬 Send GitHub Action trigger data to Slack workflow
+      id: slack
+      uses: slackapi/slack-github-action@v1.23.0
+      with:
+        payload: |
+          {
+            "github_repo_url": "${{ inputs.github_repo_url }}",
+            "github_username": "${{ inputs.github_username }}"
+          }
+      env:
+        SLACK_WEBHOOK_URL: ${{ inputs.SLACK_WEBHOOK_URL }}
