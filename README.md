@@ -32,7 +32,7 @@ This application displays a list of games and includes a few by default.
 | **[Edit Mode]** Add new game       | Adds a new game to the collection.   | <img src="screenshots/add-game-btn.png" width="250" alt="Add Game Button"> |
 | **[Edit Mode]** Delete existing game | Deletes a game from the collection. | <img src="screenshots/delete-game.png" width="250" alt="Delete Game"> |
 | **[Edit Mode]** Exit edit mode     | Exits the edit mode.                 | <img src="screenshots/close-edit-mode.png" width="250" alt="Close Edit Mode"> |
-| **(BONUS)** [Attract Mode](https://en.wiktionary.org/wiki/attract_mode)     | Screen saver that shows games in a roulette, switching every few minutes | <img src="screenshots/attract-mode-btn.png" width="250" alt="Attract Mode Button"> |
+| **(BONUS)** [Attract Mode](https://en.wiktionary.org/wiki/attract_mode)     | Screen saver that shows games in a roulette, switching every few minutes. It should spin the game list and stop on a game for 1-2 minutes, showing that game's details, and then spin again | <img src="screenshots/attract-mode-btn.png" width="250" alt="Attract Mode Button"> |
 
 ## Backend API for Prep & Teardown
 
@@ -48,6 +48,7 @@ Works with a backend application. Swagger documentation: https://arcade.kibibit.
     - Game Details Modal
 - Include prep and teardown for each test, preferably using API calls, to manage test data.
 - Aim for minimal code duplication and a scalable architecture.
+- Clean, readable code
 
 ## Bonus Goals (🕒 1-1.5 hours):
 
@@ -86,10 +87,12 @@ Some links to get you started:
 
 ## Submission Guidelines
 
-You have two options for submitting your completed assignment:
+<!-- You have two options for submitting your completed assignment: -->
 
-1. Fork this project and submit a link to a public repository containing your solution. Please include a verbal explanation of your work in the email submitting the home assignment.
-2. Clone the project and send a zip file containing the completed assignment and a verbal explanation by email.
+<!-- 1. Fork this project and submit a link to a public repository containing your solution. Please include a verbal explanation of your work in the email submitting the home assignment. -->
+Clone the project and send a zip file containing the completed assignment and a verbal explanation by email.
+
+**:warning: Do not create a public fork\clone of this repository :warning:**
 
 Include both Neil and Christina in the Email (See contact information below)
 
