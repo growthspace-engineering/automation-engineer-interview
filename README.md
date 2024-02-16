@@ -34,6 +34,20 @@ This application displays a list of games and includes a few by default.
 | **[Edit Mode]** Exit edit mode     | Exits the edit mode.                 | <img src="screenshots/close-edit-mode.png" width="250" alt="Close Edit Mode"> |
 | **(BONUS)** [Attract Mode](https://en.wiktionary.org/wiki/attract_mode)     | Screen saver that shows games in a roulette, switching every few minutes. It should spin the game list and stop on a game for 1-2 minutes, showing that game's details, and then spin again | <img src="screenshots/attract-mode-btn.png" width="250" alt="Attract Mode Button"> |
 
+## Some words from the 👩‍💼 Product Manager
+When adding a new game to the Arcade Game Playlist application, it's essential to ensure the data entered meets our specific criteria for a seamless and error-free user experience. Below, we outline the expected validations and behaviors for each field in the "Add Game" form.
+
+- **Title:** Every game needs a unique title that stands out. The title should be between 2 and 150 characters. This ensures clarity and prevents games from being indistinguishable from each other.
+- **Description:** The game's description should provide players with insight into what to expect from the game, requiring a length between 10 and 5000 characters. This ensures that users receive enough information to understand the game's premise and gameplay experience.
+- **Platform:** Selection of the platform is critical. The game must be associated with one of our supported platforms (e.g., Windows, Nintendo Wii). This information helps users filter and find games suitable for their systems (available options was documented in swagger models already).
+- **Developer:** The name of the game's developer is required and must be provided, highlighting the entity responsible for creating the game. This field must be filled with a string that is concise yet descriptive, with a maximum of 150 characters. The developer's name gives users insights into the game's development background, potentially influencing their interest based on the reputation or previous works of the developer.
+- **Publisher:** Similarly, the game's publisher must also be identified, ensuring that the game is attributed to the correct publishing entity. This field is mandatory and accepts a string with up to 150 characters. The publisher's name is crucial for users to understand the game's distribution and marketing background, often associated with the game's availability and support.
+- **Release Date:** The release date should be provided in a valid date format and must be a date in the past, reflecting the game's availability to the public.
+- **Play Mode:** This field is required and describes the game's play mode, such as "Single Player" or "Multiplayer." This information is crucial for users to understand the type of gameplay experience they can expect. The play mode should be a descriptive string, ranging from 5 to 25 characters, to provide clear and concise information about how the game is played.
+- **Max Players:** This field is also required for games that support multiplayer modes, indicating the maximum number of players that can participate simultaneously. The value must be an integer between 1 and 15, inclusive. Specifying the max players is essential for users to know whether the game suits their social gaming needs and preferences.
+- **Community Star Rating:** This field captures the average star rating given to the game by the community, on a scale from 1 to 5. The value must be a number that reflects the collective assessment of the game's quality and appeal, including decimal points for precision. This rating is a crucial indicator of the game's reception among users, guiding potential players in their decision to engage with the game based on community feedback.
+- **Community Star Rating Total Votes:** Alongside the star rating, it's essential to note the total number of votes that contributed to this rating. This field is an integer representing how many community members have voted, starting from 1 for a new game since an initial vote is mandatory. The total votes count provides context to the star rating, indicating the breadth of community engagement and the reliability of the rating score. A higher number of votes typically signifies a more universally accepted rating.
+
 ## Backend API for Prep & Teardown
 
 Works with a backend application. Swagger documentation: https://arcade.kibibit.duckdns.org/api/docs
@@ -105,11 +119,11 @@ If you encounter any technical issues or have questions regarding the assignment
 ## Contact Information
 
 - **Neil Kalman**
-  - Email: neil.kalman@growthspace.com
-  - Phone: 0523531234
-  - Role: Tech-Lead; Contact for technical issues and assignment questions.
+  - **Email:** neil.kalman@growthspace.com
+  - **Phone:** 0523531234
+  - **Role:** Tech-Lead; Contact for technical issues and assignment questions.
   
 - **Christina Mattar**
-  - Email: christina.mattar@growthspace.com
-  - Phone: 0505737266
-  - Role: Talent Acquisition Specialist; Contact for process-related questions and general questions.
+  - **Email:** christina.mattar@growthspace.com
+  - **Phone:** 0505737266
+  - **Role:** Talent Acquisition Specialist; Contact for process-related questions and general questions.
