@@ -23,6 +23,8 @@ Test an Arcade Game Playlist application: https://arcade.kibibit.duckdns.org/
 
 This application displays a list of games and includes a few by default.
 
+For testing purposes, the game collection will be reset to normal, everyday at 4:00 AM Israel Time.
+
 ## Application Main Sections
 
 | Feature                            | Description                          | Screenshot                             |
