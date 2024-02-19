@@ -98,6 +98,8 @@ Works with a backend application. Swagger documentation: https://arcade.kibibit.
 You're welcome to use any testing framework you're comfortable with. Just let us know in your submission email.
 Also take into account that you need to generate the project seed for yourself if not using Playwright.
 
+Also, include an explanation on how to run your tests in the submission email.
+
 ## About Playwright
 See the playwright documentation for more.
 Some links to get you started:
