@@ -94,18 +94,18 @@ Works with a backend application. Swagger documentation: https://arcade.kibibit.
     npm run test:ui
     ```
 
-## Prefer to use Cypress or something else?
-You're welcome to use any testing framework you're comfortable with. Just let us know in your submission email.
-Also take into account that you need to generate the project seed for yourself if not using Playwright.
-
-Also, include an explanation on how to run your tests in the submission email.
-
 ## About Playwright
 See the playwright documentation for more.
 Some links to get you started:
 - [Writing Tests](https://playwright.dev/docs/writing-tests)
 - [Generating Tests](https://playwright.dev/docs/codegen-intro)
 - [Running and Debugging Tests](https://playwright.dev/docs/running-tests)
+
+## Prefer to use Cypress or something else?
+You're welcome to use any testing framework you're comfortable with. Just let us know in your submission email.
+Also take into account that you need to generate the project seed for yourself if not using Playwright.
+
+Also, include an explanation on how to run your tests in the submission email.
 
 ## Submission Guidelines
 
