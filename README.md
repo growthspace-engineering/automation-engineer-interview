@@ -19,7 +19,7 @@ This project is compatible across different operating systems. Administrator rig
 
 ## Getting Started
 
-Test an Arcade Game Playlist application: https://arcade.kibibit.duckdns.org/
+Test an Arcade Game Playlist application: http://ec2-13-49-145-115.eu-north-1.compute.amazonaws.com:3000/
 
 This application displays a list of games and includes a few by default.
 
@@ -52,7 +52,7 @@ When adding a new game to the Arcade Game Playlist application, it's essential t
 
 ## Backend API for Prep & Teardown
 
-Works with a backend application. Swagger documentation: https://arcade.kibibit.duckdns.org/api/docs
+Works with a backend application. Swagger documentation: http://ec2-13-49-145-115.eu-north-1.compute.amazonaws.com:3000/api/docs
 
 ## Assignment Goals (🕒 3-4 hours):
 
