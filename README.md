@@ -116,6 +116,7 @@ Also, include an explanation on how to run your tests in the submission email.
 
 <!-- 1. Fork this project and submit a link to a public repository containing your solution. Please include a verbal explanation of your work in the email submitting the home assignment. -->
 Clone the project and send a zip file containing the completed assignment and a verbal explanation by email.
+Please include how to run your project, project structure explanation, test selection explanation and details.
 
 **:warning: Do not create a public fork\clone of this repository :warning:**
 
