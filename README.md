@@ -26,6 +26,7 @@ This application displays a list of games and includes a few by default.
 For testing purposes, the game collection will be reset to normal, everyday at 4:00 AM Israel Time.
 
 ⚠️ This exercise focuses on E2E tests only. API tests are not part of this exercise's scope and shouldn't be added to your submission.
+The API endpoints are detailed specifically for E2E tests prep and teardown and not for testing by themselves ⚠️
 
 ## Application Main Sections
 
