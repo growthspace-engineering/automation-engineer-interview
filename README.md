@@ -55,7 +55,7 @@ When adding a new game to the Arcade Game Playlist application, it's essential t
 
 ## Backend API for Prep & Teardown
 
-Works with a backend application. Swagger documentation: http://ec2-13-49-145-115.eu-north-1.compute.amazonaws.com:3000/api/docs
+The website is using a dedicated backend server. Swagger documentation: http://ec2-13-49-145-115.eu-north-1.compute.amazonaws.com:3000/api/docs
 
 ## Assignment Goals (🕒 3-4 hours):
 
